@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TuZodiaco</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilos/estilo.css">
+        <link rel="shortcut icon" href="foto/favicon.png">
+    </head>
+    <body>
+        <div>
+            <h1>Tu Zodiaco</h1>
+            <h3>Bienvendido a la mejor web sobre zodiacos. Si quieres saber cuál es el tuyo y saber más sobre el...</h3>
+
+            <form action="verZodiaco.jsp" method="post">
+                <div class="form-block" id="nombreBlock">
+                    <div class="form-section-left">
+                        <p>Rellena los siguientes datos</p>
+                    </div>
+                    <div class="form-section-center">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        <br>
+                        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+                        <br>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit">Ver Zodiaco</button>
+                </div>
+            </form>
+        </div>
+        <p>Para conocer una tabla sobre unos libros que pueden ser de tu interes, pincha <a href='tabla.jsp'>aqui</a></p>
+        <p>Para conocer un listado más detallado sobre esos libros, pincha <a href='lista.jsp'>aqui</a></p>
+    </body>
+</html>

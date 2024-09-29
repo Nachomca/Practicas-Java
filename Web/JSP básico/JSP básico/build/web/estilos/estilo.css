@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+p {
+    font-weight: bold;
+}
+
+h1 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 80px;
+}
+
+h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-bottom: 80px;
+}
+
+form {
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.form-block {
+    margin-bottom: 20px;
+    position: relative;
+    display: flex; /* Agregamos la propiedad flex para organizar los sectores */
+    align-items: center;
+    justify-content: space-between; /* Espacio entre los sectores */
+}
+
+.form-block-left {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.form-block-right {
+    flex-grow: 1; /* El sector central crecerá para ocupar el espacio restante */
+}
+
+.form-block label {
+    display: block;
+}
+
+.form-block input {
+    margin-bottom: 8px;
+}
+
+.form-block {
+    display: flex;
+}
+
+.form-section-left {
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.form-section-center {
+    flex: 2;
+}
+
+.form-block input,
+.form-block textarea,
+.form-block select {
+    width: calc(100% - 16px);
+    max-width: 300px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #9da09e;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 80px;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+
+.listado {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.lista-libros {
+    margin-bottom: 80px;
+}
